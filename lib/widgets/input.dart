@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //mengimport package tersebut untuk dieksekusi di sini
 
 class Input extends StatelessWidget {
   const Input({
@@ -14,6 +14,10 @@ class Input extends StatelessWidget {
       controller: inputController,
       decoration: InputDecoration(
         hintText: "Masukkan Bilangan",
+        border: new OutlineInputBorder(
+          borderSide : new BorderSide(
+            color: Colors.teal,)
+        ),
       ),
       keyboardType: TextInputType.number,
     );

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //mengimport package tersebut untuk dieksekusi di sini
 
 class Result extends StatelessWidget {
   const Result({
@@ -16,9 +16,9 @@ Widget build(BuildContext context) {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Hasil",style: TextStyle(fontSize: 20),),
+          Text("Hasil",style: TextStyle(fontSize: 20)),
           Text(
-            result.toStringAsFixed(1),
+            result.toString(),
             style: TextStyle(fontSize: 30),
           )
         ],

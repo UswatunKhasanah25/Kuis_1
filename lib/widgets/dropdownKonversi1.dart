@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; //mengimport package tersebut untuk dieksekusi di sini
 
 class DropdownKonversi1 extends StatelessWidget {
   const DropdownKonversi1({
@@ -16,7 +16,7 @@ class DropdownKonversi1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly, //
       children: [
         Expanded(
           child: Text(
