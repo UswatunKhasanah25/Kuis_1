@@ -4,5 +4,5 @@
 
 ## Getting Started
 
-![screenshot](images/kuis1.jpeg)
+![screenshot](image/kuis1.jpeg)
 
